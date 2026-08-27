@@ -3,7 +3,7 @@ function makeid(l) {
 	let chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789"
 	let len = l
 	let res=""
-	for(let i=0;i<len;i++){
+	for(let i=0;i<=len;i++){
 		randomindex = Math.floor(Math.random()*chars.length)+1
 		res = res+chars[randomindex]
 	}
