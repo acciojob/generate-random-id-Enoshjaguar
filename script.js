@@ -4,7 +4,7 @@ function makeid(l) {
 	let len = l
 	let res=""
 	for(let i=0;i<len;i++){
-		randomindex = Math.floor(Math.random()*chars.length)+1
+		randomindex = Math.floor(Math.random()*chars.length)
 		res = res+chars[randomindex]
 	}
 	return res
